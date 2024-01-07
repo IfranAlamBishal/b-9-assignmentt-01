@@ -10,7 +10,6 @@
 .banner{
     background: linear-gradient(rgba(0, 0, 0, 0.91),rgba(255, 255, 255, 0.06)), url(../resources/Banner\ Image.png);
     background-repeat: no-repeat;
-    /* max-width: 1320px; */
     height: 600px;
     border-radius: 16px;
     justify-content: center;
@@ -64,4 +63,50 @@
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 48px;
+}
+/* Midnight-party */
+
+.midnight-party{
+    margin: 20px 140px;
+    background: linear-gradient(90deg, black 0.8%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+.party-title{
+    color: white;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin: 126px 0 24px 126px;
+}
+.party-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 126px ;
+    margin-bottom: 48px;
+    width: 697px;
+}
+.join-now{
+    background: none;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 158px;
+    cursor: pointer;
+}
+.join-now:hover{
+    color: gold;
+}
+.party-img{
+    margin: 68px 150px 0 0;
 }
